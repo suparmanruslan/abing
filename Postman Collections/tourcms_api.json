@@ -1,0 +1,125 @@
+{
+  "variables": [],
+  "info": {
+    "name": "tourcms api",
+    "_postman_id": "ade9e7f5-cf90-9c30-42e7-d8ff5def9e15",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "c38acd6c-eeab-5eef-f4aa-01488fa0e659",
+      "name": "https://admin.tourcms.com/admin/setup/api/setup_api.php?b70321b414de",
+      "request": {
+        "url": "https://admin.tourcms.com/admin/setup/api/setup_api.php?b70321b414de",
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "description": "tourcms api"
+      },
+      "response": [
+        {
+          "id": "01b317af-8120-b110-6056-b1d52b6a9410",
+          "name": "diva",
+          "originalRequest": {
+            "url": "https://admin.tourcms.com/admin/setup/api/setup_api.php?b70321b414de",
+            "method": "GET",
+            "header": [],
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "html",
+          "_postman_previewtype": "text",
+          "header": [
+            {
+              "key": "Cache-Control",
+              "value": "pre-check=0, post-check=0, max-age=0",
+              "name": "Cache-Control",
+              "description": ""
+            },
+            {
+              "key": "Connection",
+              "value": "Keep-Alive",
+              "name": "Connection",
+              "description": ""
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "gzip",
+              "name": "Content-Encoding",
+              "description": ""
+            },
+            {
+              "key": "Content-Length",
+              "value": "1371",
+              "name": "Content-Length",
+              "description": ""
+            },
+            {
+              "key": "Content-Type",
+              "value": "text/html; charset=utf-8",
+              "name": "Content-Type",
+              "description": ""
+            },
+            {
+              "key": "Date",
+              "value": "Mon, 22 May 2017 21:00:20 GMT",
+              "name": "Date",
+              "description": ""
+            },
+            {
+              "key": "Expires",
+              "value": "0",
+              "name": "Expires",
+              "description": ""
+            },
+            {
+              "key": "Last-Modified",
+              "value": "Mon, 22 May 2017 21:00:20 GMT",
+              "name": "Last-Modified",
+              "description": ""
+            },
+            {
+              "key": "Pragma",
+              "value": "no-cache",
+              "name": "Pragma",
+              "description": ""
+            },
+            {
+              "key": "Server",
+              "value": "Apache/2.4",
+              "name": "Server",
+              "description": ""
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=15552000",
+              "name": "Strict-Transport-Security",
+              "description": ""
+            },
+            {
+              "key": "Vary",
+              "value": "Accept-Encoding",
+              "name": "Vary",
+              "description": ""
+            }
+          ],
+          "cookie": [
+            {
+              "expires": "Mon Jan 18 2038 20:14:07 GMT+0000 (UTC)",
+              "httpOnly": false,
+              "domain": "admin.tourcms.com",
+              "path": "/",
+              "secure": false,
+              "value": "1501BD852F637857F7039A878E448F67",
+              "key": "X-Mapping-bfebkaom"
+            }
+          ],
+          "responseTime": "2140",
+          "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\t<title>TourCMS&reg; : Login</title>\r\n\t<meta name=\"ROBOTS\" content=\"NOINDEX,FOLLOW\" />\r\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n\t<link rel=\"shortcut icon\" href=\"/favicon.ico\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"../style-login.css\">\r\n\r\n<script type=\"text/javascript\" src=\"../ria/zapatec/utils/zapatec.js\"></script>\r\n<script type=\"text/javascript\" src=\"../ria/zapatec/zpform/src/form.js\"></script>\r\n</head><body bgcolor=\"#F5F5F5\">\r\n\r\n<div class=\"page-wrap\">\r\n<h1 class=\"title-view\">TourCMS LOGIN</h1>\r\n\r\n<div id=\"setmargin\">\r\n\r\n<br /><br />\r\n<div id='ui_message' align='center'>You are not currently logged in</div><br />\r\n<div class=\"form-login\">\r\n\r\n\r\n\r\n<form method=\"post\" action=\"login_new.php\" name=\"login\" id=\"login\">\r\n<div class=\"zpFormContent\">\r\n<fieldset>\r\n<label for=\"account\">Account name</label>\r\n<input tabindex=\"1\" class='zpFormRequired zpFormAllowedChars=A-Za-z0123456789 zpFormMinLength3' value=\"\" type=\"text\" id=\"account\" name=\"account\" size=\"15\" maxlength=\"30\"  />\r\n<br />\r\n<label for=\"username\">Username</label>\r\n\r\n<input tabindex=\"2\" class='zpFormRequired zpFormAllowedChars=A-Z_a-z0123456789 zpFormMinLength6' type=\"text\" id=\"username\" name=\"username\" size=\"15\" maxlength=\"12\" />\r\n\r\n<br />\r\n<label for=\"password\">Password</label>\r\n<input tabindex=\"3\" class='zpFormRequired zpFormPassword' id=\"password\" type=\"password\" name=\"password\" size=\"15\" maxlength=\"12\" />\r\n<p class=\"submit\"><input tabindex=\"4\" type=\"submit\" value=\"Login to TourCMS\" value=\"\" name=\"login\" /></p>\r\n\r\n</fieldset>\r\n\r\n</div>\r\n<div style=\"display:none\">\r\n<input type=\"hidden\" name=\"tcd\" value=\"\" /></div>\r\n\r\n\r\n\r\n\r\n</form>\r\n\r\n<p class=\"text-no-account\" align=\"center\">No TourCMS account? <a target=\"_blank\" href=\"http://www.tourcms.com/signup/\">Sign up for a free trial</a></p>\r\n\r\n\r\n\r\n\r\n</div>\r\n\r\n\r\n</div>\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n\r\nZapatec.Form.Validator.addDataType(\r\n\t'zpFormMinLength6',\r\n\t'Enter at least 6 characters',\r\n\t/^.{6,}$/,\r\n\t\"Enter at least 6 characters\",\r\n\t\"Enter at least 6 characters\",\r\n\tnull\r\n);\r\n\r\n\r\nZapatec.Form.Validator.addDataType(\r\n\t'zpFormMinLength3',\r\n\t'Enter at least 3 characters',\r\n\t/^.{3,}$/,\r\n\t\"Enter at least 3 characters\",\r\n\t\"Enter at least 3 characters\",\r\n\tnull\r\n);\r\n\r\nZapatec.Form.Validator.addDataType(\r\n\t'zpFormPassword',\r\n\t'Enter at least 7 characters',\r\n\t/^.*(?=.{7,})(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$^&=]).*$/,\r\n\t\"Enter at least 7 characters\",\r\n\t\"Enter at least 7 characters\",\r\n\tnull\r\n);\r\n\r\nnew Zapatec.Form({\r\n\tform: 'login',\r\n\tshowErrors: 'null',\r\n\tstatusImgPos: \"afterField\",\r\n\tshowErrorsOnSubmit: false,\r\n\tstrict: true,\r\n\tstartupFocusPosition: \"firstField\",\r\n\tputTabIndexesOnError: false,\r\n\ttheme: \"tourcms_plain\"\r\n});\r\n\r\n\r\n\r\n\r\n</script>\r\n\r\n\r\n\r\n\r\n<br /><br />\r\n</div>\r\n<footer class=\"site-footer\">\r\n\t\r\n\t<p align=\"center\"><img src=\"https://admin.tourcms.com/images/tourcmslogo_med_transparent.png\" width=\"100\" /><br/>\r\n\tTourCMS&reg; &copy; Copyright Travel UCD Limited 2003-2017. All rights reserved.<br /><a href=\"http://www.tourcms.com/\" target=\"_blank\">TourCMS</a>&nbsp;|&nbsp;<a href=\"http://www.tourcms.com/mp/\" target=\"_blank\">Marketplace</a>&nbsp;|&nbsp;<a href=\"http://www.tourcms.com/support/\" target=\"_blank\">Help &amp; Support</a>&nbsp;|&nbsp;<a href=\"http://www.tourcms.com/company/tos.php\" target=\"_blank\">Terms of Service</a>\r\n\t</p>\r\n</footer>\r\n\r\n</body>\r\n</html>"
+        }
+      ]
+    }
+  ]
+}
